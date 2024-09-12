@@ -2,7 +2,7 @@
 
 ![App Screenshot](src/images/screenshot_project.png)
 
-Este é um projeto de uma biblioteca digital, desenvolvido para a disciplina de Estrutura de Dados. O projeto consiste em uma aplicação que permite aos usuários gerenciar uma coleção de livros. Além disso, inclui funcionalidades para classificar e pesquisar livros, além de permitir a adição, remoção e edição de livros na biblioteca. As estruturas presentes foram implementadas por mim, seguindo os ensinamentos e requisitos da disciplina. O mesmo para os algoritmos de ordenação e busca, no qual tive acesso a informações também através do livro 'Entendendo Algoritmos: Um Guia Ilustrado'.
+Este é um projeto de uma biblioteca digital, desenvolvido para a disciplina de Estrutura de Dados. O projeto consiste em uma aplicação que permite aos usuários gerenciar uma coleção de livros. Além disso, inclui funcionalidades para classificar e pesquisar livros, além de permitir a adição e remoção de livros na biblioteca. As estruturas presentes foram implementadas por mim, seguindo os ensinamentos e requisitos da disciplina. O mesmo para os algoritmos de ordenação e busca, no qual tive acesso a informações também através do livro 'Entendendo Algoritmos: Um Guia Ilustrado'.
 
 ## Estrutura do Projeto
 
