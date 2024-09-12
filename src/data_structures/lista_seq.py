@@ -30,10 +30,31 @@ class Lista_Seq:
             livro = self._array_interno[i]
             print(f"Título: {livro.titulo}, Autor: {livro.autor}, Ano de Publicação: {livro.ano_publicacao}, Gênero: {livro.genero}")
 
-    # Método para remover da lista
-    def remove(self) -> None:
-        self._inseridos -= 1
-        self._array_interno[self._inseridos] = None
+    # Método para remover da lista, indice é None pois é opcional
+    def remove(self, indice=None) -> book.Book:
+        if self._inseridos == 0:
+            raise IndexError("A lista está vazia")
+        
+        if indice is None:
+            # Remove o último elemento
+            self._inseridos -= 1
+            valor_removido = self._array_interno[self._inseridos]
+            self._array_interno[self._inseridos] = None
+        else:
+            # Remove o elemento no índice especificado
+            if indice < 0 or indice >= self._inseridos:
+                raise IndexError("Índice fora dos limites")
+            
+            valor_removido = self._array_interno[indice]
+            
+            # Desloca os elementos à direita do índice removido
+            for i in range(indice, self._inseridos - 1):
+                self._array_interno[i] = self._array_interno[i + 1]
+            
+            self._inseridos -= 1
+            self._array_interno[self._inseridos] = None
+        
+        return valor_removido
 
     # Método para verificar se a lista está cheia
     def _isFull(self) -> bool:
