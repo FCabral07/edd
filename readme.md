@@ -8,7 +8,7 @@ Este é um projeto de uma biblioteca digital, desenvolvido para a disciplina de 
 
 - `main.py`: Arquivo principal que inicia a aplicação.
 - `src/models/book.py`: Classe que representa um livro.
-- `src/data_structures`: Pasta que contém as implementações das estruturas de dados utilizadas. **No momento, apenas a lista sequencial está implementada.**
+- `src/data_structures`: Pasta que contém as implementações das estruturas de dados utilizadas. **No momento, estou usando a estrutura de árvore..**
 - `src/sorting_algorithms`: Pasta que contém as implementações dos algoritmos de ordenação utilizados. **Até o fim do projeto pretendo implementar outros algoritmos de ordenação.**
 - `src/ui`: Pasta que contém a interface do usuário e a lógica de interação com o usuário, como a busca por livros, a adição de livros, a remoção de livros e a edição de livros, além da própria interface com os respectivos popups contendo os respectivos formulários para cada operação.
 
