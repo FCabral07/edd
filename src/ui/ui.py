@@ -5,7 +5,7 @@ from src.models.book import Book
 
 class BibliotecaDigitalUI:
     def __init__(self):
-        self.arvore_livros = None  # Inicialize como None
+        self.arvore_livros = None
         # self.bubble_sort = BubbleSort()
 
     def main(self, page: ft.Page):
